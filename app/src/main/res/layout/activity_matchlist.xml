@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#464646"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="360dp"
+        android:layout_height="46.7dp"
+        android:background="@color/colorPrimary">
+
+        <Button
+            android:id="@+id/matchlist_act_button"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="10.3dp"
+            android:layout_marginTop="11.3dp"
+            android:background="@drawable/back" />
+
+        <TextView
+            android:id="@+id/matchlist_act_textview1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="59.7dp"
+            android:layout_marginTop="11.3dp"
+            android:lineSpacingExtra="6sp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            tools:text="赛程表：8月30日09时" />
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/matchlist_act_recyclerview"
+        android:layout_width="343.7dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="11.3dp" />
+
+
+</LinearLayout>

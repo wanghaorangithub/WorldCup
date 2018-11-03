@@ -1,0 +1,162 @@
+﻿[
+  {
+    "objectId": "5bcc26baee920a0067d4d261",
+    "name": "乌拉圭",
+    "group": "A"
+  },
+  {
+    "objectId": "5bcc26cf0b6160006a347817",
+    "name": "俄罗斯",
+    "group": "A"
+  },
+  {
+    "objectId": "5bcc26de0b6160006f434696",
+    "name": "沙特阿拉伯",
+    "group": "A"
+  },
+  {
+    "objectId": "5bcc26e69f54540070c17360",
+    "name": "埃及",
+    "group": "A"
+  },
+  {
+    "objectId": "5bcc26f09f54540070c173e8",
+    "name": "西班牙",
+    "group": "B"
+  },
+  {
+    "objectId": "5bcc26fa9f54540070c1745f",
+    "name": "葡萄牙",
+    "group": "B"
+  },
+  {
+    "objectId": "5bcc27069f54540070c1752f",
+    "name": "伊朗",
+    "group": "B"
+  },
+  {
+    "objectId": "5bcc270e0b6160006a347c10",
+    "name": "摩洛哥",
+    "group": "B"
+  },
+  {
+    "objectId": "5bcc271a9f54540070c17660",
+    "name": "法国",
+    "group": "C"
+  },
+  {
+    "objectId": "5bcc2725fb4ffe0069c79019",
+    "name": "丹麦",
+    "group": "C"
+  },
+  {
+    "objectId": "5bcc27340b6160006a347e29",
+    "name": "秘鲁",
+    "group": "C"
+  },
+  {
+    "objectId": "5bcc273dac502e0063a9093a",
+    "name": "澳大利亚",
+    "group": "C"
+  },
+  {
+    "objectId": "5bcc2755ac502e0063a90adb",
+    "name": "克罗地亚",
+    "group": "D"
+  },
+  {
+    "objectId": "5bcc275dfb4ffecf3b23ad66",
+    "name": "阿根廷",
+    "group": "D"
+  },
+  {
+    "objectId": "5bcc2767fb4ffecf3b23ae1a",
+    "name": "尼日利亚",
+    "group": "D"
+  },
+  {
+    "objectId": "5bcc27710b6160006a3481fd",
+    "name": "冰岛",
+    "group": "D"
+  },
+  {
+    "objectId": "5bcc277aac502e0063a90d39",
+    "name": "巴西",
+    "group": "E"
+  },
+  {
+    "objectId": "5bcc27840b6160006a3483a9",
+    "name": "瑞士",
+    "group": "E"
+  },
+  {
+    "objectId": "5bcc278dfb4ffecf3b23b0ec",
+    "name": "塞尔维亚",
+    "group": "E"
+  },
+  {
+    "objectId": "5bcc2798ac502e0063a90fd3",
+    "name": "哥斯达黎加",
+    "group": "E"
+  },
+  {
+    "objectId": "5bcc27a0fb4ffecf3b23b27e",
+    "name": "瑞典",
+    "group": "F"
+  },
+  {
+    "objectId": "5bcc27a8ee920a0067d4e192",
+    "name": "墨西哥",
+    "group": "F"
+  },
+  {
+    "objectId": "5bcc27b3808ca400727dfcee",
+    "name": "韩国",
+    "group": "F"
+  },
+  {
+    "objectId": "5bcc27b90b6160006a348700",
+    "name": "德国",
+    "group": "F"
+  },
+  {
+    "objectId": "5bcc27c7808ca400727dfe63",
+    "name": "比利时",
+    "group": "G"
+  },
+  {
+    "objectId": "5bcc27d3fb4ffecf3b23b58c",
+    "name": "英格兰",
+    "group": "G"
+  },
+  {
+    "objectId": "5bcc27dc808ca400727dfff8",
+    "name": "突尼斯",
+    "group": "G"
+  },
+  {
+    "objectId": "5bcc27e3fb4ffe0069c79cae",
+    "name": "巴拿马",
+    "group": "G"
+  },
+  {
+    "objectId": "5bcc27f29f54540070c18496",
+    "name": "哥伦比亚",
+    "group": "H"
+  },
+  {
+    "objectId": "5bcc28010b6160006f435a0c",
+    "name": "日本",
+    "group": "H"
+  },
+  {
+    "objectId": "5bcc280a0b6160006a348d18",
+    "name": "塞内加尔",
+    "group": "H"
+  },
+  {
+    "objectId": "5bcc2811fb4ffe0069c7a038",
+    "name": "波兰",
+    "group": "H"
+  }
+]
