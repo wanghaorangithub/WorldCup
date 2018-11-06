@@ -8,9 +8,9 @@ import com.google.gson.annotations.SerializedName
  */
 data class MatchBean(
         val objectId: String,
-        val awayTeamId: String,
+        var awayTeamId: String?,
         var awayTeamGoals: Int,
-        val homeTeamId: String,
+        var homeTeamId: String?,
         var homeTeamGoals: Int,
         val isGroupMatch: Boolean,
         val startingTime: Long,
@@ -19,7 +19,8 @@ data class MatchBean(
         var groupId: String? = null,
         var awayTeamName: String? = null,
         var homeTeamName: String? = null,
-        var Time: String? = null
+        var Time: String? = null,
+        var isOver: Int? = 1
 
 ) : Comparable<MatchBean> {
     override fun compareTo(other: MatchBean): Int {

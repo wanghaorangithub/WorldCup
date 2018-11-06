@@ -53,13 +53,13 @@ class Node<T>(var data: T?) {
   }
 
   //修改节点
-  fun updateNode(oldData: T, newData: T): Boolean {
+  fun updateNode(oldData: T, newData: T): Boolean? {
     if (this.next != null) {
-      if (this.next!!.data === oldData) {
-        this.next!!.data = newData
+      if (this.next?.data === oldData) {
+        this.next?.data = newData
         return true
       } else {
-        return this.next!!.updateNode(oldData, newData)
+        return this.next?.updateNode(oldData, newData)
       }
     }
     return false

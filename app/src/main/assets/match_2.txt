@@ -1,0 +1,610 @@
+﻿[
+  {
+    "objectId": "5bd444bb9f5454006e09167e",
+    "awayTeamGoals": 2,
+    "homeTeamGoals": 1,
+    "isGroupMatch": false,
+    "startingTime": 1530381600,
+    "match_number": 49
+  },
+  {
+    "objectId": "5bd444bbee920a006800be47",
+    "awayTeamGoals": 4,
+    "homeTeamGoals": 3,
+    "isGroupMatch": false,
+    "startingTime": 1530367200,
+    "match_number": 50
+  },
+  {
+    "objectId": "5bd444bb17d0090062fc8adf",
+    "awayTeamGoals": 2,
+    "homeTeamGoals": 0,
+    "isGroupMatch": false,
+    "startingTime": 1530540000,
+    "match_number": 53
+  },
+  {
+    "objectId": "5bd444bbac502e0061d747d6",
+    "awayTeamGoals": 3,
+    "homeTeamGoals": 2,
+    "isGroupMatch": false,
+    "startingTime": 1530554400,
+    "match_number": 54
+  },
+  {
+    "objectId": "5bd444bb17d0090062fc8ae5",
+    "awayTeamGoals": 4,
+    "homeTeamGoals": 5,
+    "isGroupMatch": false,
+    "startingTime": 1530453600,
+    "match_number": 51
+  },
+  {
+    "objectId": "5bd444bc9f5454006e091699",
+    "awayTeamGoals": 4,
+    "homeTeamGoals": 3,
+    "isGroupMatch": false,
+    "startingTime": 1530468000,
+    "match_number": 52
+  },
+  {
+    "objectId": "5bd444bc9f5454006e09169d",
+    "awayTeamGoals": 1,
+    "homeTeamGoals": 0,
+    "isGroupMatch": false,
+    "startingTime": 1530626400,
+    "match_number": 55
+  },
+  {
+    "objectId": "5bd444bc44d904005eb17ce7",
+    "awayTeamGoals": 4,
+    "homeTeamGoals": 5,
+    "isGroupMatch": false,
+    "startingTime": 1530640800,
+    "match_number": 56
+  },
+  {
+    "objectId": "5bd444bc44d904005eb17ceb",
+    "awayTeamGoals": 0,
+    "homeTeamGoals": 2,
+    "isGroupMatch": false,
+    "startingTime": 1530885600,
+    "match_number": 57
+  },
+  {
+    "objectId": "5bd444bc9f5454006e0916a9",
+    "awayTeamGoals": 1,
+    "homeTeamGoals": 2,
+    "isGroupMatch": false,
+    "startingTime": 1530900000,
+    "match_number": 58
+  },
+  {
+    "objectId": "5bd444bcee920a0068fb93cc",
+    "awayTeamGoals": 5,
+    "homeTeamGoals": 6,
+    "isGroupMatch": false,
+    "startingTime": 1530986400,
+    "match_number": 59
+  },
+  {
+    "objectId": "5bd444bdee920a0068fb93cf",
+    "awayTeamGoals": 0,
+    "homeTeamGoals": 2,
+    "isGroupMatch": false,
+    "startingTime": 1530972000,
+    "match_number": 60
+  },
+  {
+    "objectId": "5bd444bdac502e0061d747f1",
+    "awayTeamGoals": 1,
+    "homeTeamGoals": 0,
+    "isGroupMatch": false,
+    "startingTime": 1531245600,
+    "match_number": 61
+  },
+  {
+    "objectId": "5bd444bdac502e0061d747fa",
+    "awayTeamGoals": 2,
+    "homeTeamGoals": 1,
+    "isGroupMatch": false,
+    "startingTime": 1531332000,
+    "match_number": 62
+  },
+  {
+    "objectId": "5bd444bd17d0090062fc8b19",
+    "awayTeamGoals": 2,
+    "homeTeamGoals": 0,
+    "isGroupMatch": false,
+    "startingTime": 1531576800,
+    "match_number": 63
+  },
+  {
+    "objectId": "5bd444bd44d904005eb17d06",
+    "awayTeamGoals": 4,
+    "homeTeamGoals": 2,
+    "isGroupMatch": false,
+    "startingTime": 1531666800,
+    "match_number": 64
+  },
+  {
+    "objectId": "5bd444f7ee920a0068fb97d5",
+    "awayTeamId": "5bcc26cf0b6160006a347817",
+    "awayTeamGoals": 5,
+    "homeTeamId": "5bcc26de0b6160006f434696",
+    "homeTeamGoals": 0,
+    "isGroupMatch": true,
+    "startingTime": 1528988400,
+    "match_number": 1
+  },
+  {
+    "objectId": "5bd444f7ee920a006800c542",
+    "awayTeamId": "5bcc26e69f54540070c17360",
+    "awayTeamGoals": 0,
+    "homeTeamId": "5bcc26baee920a0067d4d261",
+    "homeTeamGoals": 1,
+    "isGroupMatch": true,
+    "startingTime": 1529064000,
+    "match_number": 2
+  },
+  {
+    "objectId": "5bd444f7ac502e0061d74c30",
+    "awayTeamId": "5bcc26cf0b6160006a347817",
+    "awayTeamGoals": 3,
+    "homeTeamId": "5bcc26e69f54540070c17360",
+    "homeTeamGoals": 1,
+    "isGroupMatch": true,
+    "startingTime": 1529431200,
+    "match_number": 17
+  },
+  {
+    "objectId": "5bd444f717d0090062fc8f3c",
+    "awayTeamId": "5bcc26baee920a0067d4d261",
+    "awayTeamGoals": 1,
+    "homeTeamId": "5bcc26de0b6160006f434696",
+    "homeTeamGoals": 0,
+    "isGroupMatch": true,
+    "startingTime": 1529506800,
+    "match_number": 18
+  },
+  {
+    "objectId": "5bd444f844d904005eb18158",
+    "awayTeamId": "5bcc26baee920a0067d4d261",
+    "awayTeamGoals": 3,
+    "homeTeamId": "5bcc26cf0b6160006a347817",
+    "homeTeamGoals": 0,
+    "isGroupMatch": true,
+    "startingTime": 1529935200,
+    "match_number": 33
+  },
+  {
+    "objectId": "5bd444f80b61600066e7ab9c",
+    "awayTeamId": "5bcc26de0b6160006f434696",
+    "awayTeamGoals": 2,
+    "homeTeamId": "5bcc26e69f54540070c17360",
+    "homeTeamGoals": 1,
+    "isGroupMatch": true,
+    "startingTime": 1529935200,
+    "match_number": 34
+  },
+  {
+    "objectId": "5bd444f89f5454006e091b4f",
+    "awayTeamId": "5bcc270e0b6160006a347c10",
+    "awayTeamGoals": 0,
+    "homeTeamId": "5bcc27069f54540070c1752f",
+    "homeTeamGoals": 1,
+    "isGroupMatch": true,
+    "startingTime": 1529074800,
+    "match_number": 4
+  },
+  {
+    "objectId": "5bd444f8ac502e0061d74c3c",
+    "awayTeamId": "5bcc26fa9f54540070c1745f",
+    "awayTeamGoals": 3,
+    "homeTeamId": "5bcc26f09f54540070c173e8",
+    "homeTeamGoals": 3,
+    "isGroupMatch": true,
+    "startingTime": 1529085600,
+    "match_number": 3
+  },
+  {
+    "objectId": "5bd444f89f545400669f9468",
+    "awayTeamId": "5bcc26fa9f54540070c1745f",
+    "awayTeamGoals": 1,
+    "homeTeamId": "5bcc270e0b6160006a347c10",
+    "homeTeamGoals": 0,
+    "isGroupMatch": true,
+    "startingTime": 1529496000,
+    "match_number": 19
+  },
+  {
+    "objectId": "5bd444f9ee920a0068fb97f5",
+    "awayTeamId": "5bcc27069f54540070c1752f",
+    "awayTeamGoals": 0,
+    "homeTeamId": "5bcc26f09f54540070c173e8",
+    "homeTeamGoals": 1,
+    "isGroupMatch": true,
+    "startingTime": 1529517600,
+    "match_number": 20
+  },
+  {
+    "objectId": "5bd444f9ee920a0068fb97fc",
+    "awayTeamId": "5bcc26f09f54540070c173e8",
+    "awayTeamGoals": 2,
+    "homeTeamId": "5bcc270e0b6160006a347c10",
+    "homeTeamGoals": 2,
+    "isGroupMatch": true,
+    "startingTime": 1529949600,
+    "match_number": 36
+  },
+  {
+    "objectId": "5bd444f99f5454006e091b61",
+    "awayTeamId": "5bcc27069f54540070c1752f",
+    "awayTeamGoals": 1,
+    "homeTeamId": "5bcc26fa9f54540070c1745f",
+    "homeTeamGoals": 1,
+    "isGroupMatch": true,
+    "startingTime": 1529949600,
+    "match_number": 35
+  },
+  {
+    "objectId": "5bd444f90b61600066e7abbd",
+    "awayTeamId": "5bcc271a9f54540070c17660",
+    "awayTeamGoals": 2,
+    "homeTeamId": "5bcc273dac502e0063a9093a",
+    "homeTeamGoals": 1,
+    "isGroupMatch": true,
+    "startingTime": 1529143200,
+    "match_number": 5
+  },
+  {
+    "objectId": "5bd444f944d904005eb1818b",
+    "awayTeamId": "5bcc27340b6160006a347e29",
+    "awayTeamGoals": 0,
+    "homeTeamId": "5bcc2725fb4ffe0069c79019",
+    "homeTeamGoals": 1,
+    "isGroupMatch": true,
+    "startingTime": 1529164800,
+    "match_number": 6
+  },
+  {
+    "objectId": "5bd444fa44d904005eb18193",
+    "awayTeamId": "5bcc2725fb4ffe0069c79019",
+    "awayTeamGoals": 1,
+    "homeTeamId": "5bcc273dac502e0063a9093a",
+    "homeTeamGoals": 1,
+    "isGroupMatch": true,
+    "startingTime": 1529582400,
+    "match_number": 22
+  },
+  {
+    "objectId": "5bd444fa0b61600066e7abcb",
+    "awayTeamId": "5bcc271a9f54540070c17660",
+    "awayTeamGoals": 1,
+    "homeTeamId": "5bcc27340b6160006a347e29",
+    "homeTeamGoals": 0,
+    "isGroupMatch": true,
+    "startingTime": 1529593200,
+    "match_number": 21
+  },
+  {
+    "objectId": "5bd444fa9f5454006e091b6f",
+    "awayTeamId": "5bcc273dac502e0063a9093a",
+    "awayTeamGoals": 0,
+    "homeTeamId": "5bcc27340b6160006a347e29",
+    "homeTeamGoals": 2,
+    "isGroupMatch": true,
+    "startingTime": 1530021600,
+    "match_number": 38
+  },
+  {
+    "objectId": "5bd444fa9f545400669f9495",
+    "awayTeamId": "5bcc2725fb4ffe0069c79019",
+    "awayTeamGoals": 0,
+    "homeTeamId": "5bcc271a9f54540070c17660",
+    "homeTeamGoals": 0,
+    "isGroupMatch": true,
+    "startingTime": 1530021600,
+    "match_number": 37
+  },
+  {
+    "objectId": "5bd444faee920a006800c5a6",
+    "awayTeamId": "5bcc275dfb4ffecf3b23ad66",
+    "awayTeamGoals": 1,
+    "homeTeamId": "5bcc27710b6160006a3481fd",
+    "homeTeamGoals": 1,
+    "isGroupMatch": true,
+    "startingTime": 1529154000,
+    "match_number": 7
+  },
+  {
+    "objectId": "5bd444faee920a0068fb9823",
+    "awayTeamId": "5bcc2755ac502e0063a90adb",
+    "awayTeamGoals": 2,
+    "homeTeamId": "5bcc2767fb4ffecf3b23ae1a",
+    "homeTeamGoals": 0,
+    "isGroupMatch": true,
+    "startingTime": 1529175600,
+    "match_number": 8
+  },
+  {
+    "objectId": "5bd444fb9f545400669f949f",
+    "awayTeamId": "5bcc275dfb4ffecf3b23ad66",
+    "awayTeamGoals": 0,
+    "homeTeamId": "5bcc2755ac502e0063a90adb",
+    "homeTeamGoals": 3,
+    "isGroupMatch": true,
+    "startingTime": 1529604000,
+    "match_number": 23
+  },
+  {
+    "objectId": "5bd444fb0b61600066e7abe3",
+    "awayTeamId": "5bcc2767fb4ffecf3b23ae1a",
+    "awayTeamGoals": 2,
+    "homeTeamId": "5bcc27710b6160006a3481fd",
+    "homeTeamGoals": 0,
+    "isGroupMatch": true,
+    "startingTime": 1529679600,
+    "match_number": 24
+  },
+  {
+    "objectId": "5bd444fbee920a0068fb9831",
+    "awayTeamId": "5bcc2767fb4ffecf3b23ae1a",
+    "awayTeamGoals": 1,
+    "homeTeamId": "5bcc275dfb4ffecf3b23ad66",
+    "homeTeamGoals": 2,
+    "isGroupMatch": true,
+    "startingTime": 1530036000,
+    "match_number": 39
+  },
+  {
+    "objectId": "5bd444fb9f545400669f94ab",
+    "awayTeamId": "5bcc27710b6160006a3481fd",
+    "awayTeamGoals": 1,
+    "homeTeamId": "5bcc2755ac502e0063a90adb",
+    "homeTeamGoals": 2,
+    "isGroupMatch": true,
+    "startingTime": 1530036000,
+    "match_number": 40
+  },
+  {
+    "objectId": "5bd444fb44d904005eb181bc",
+    "awayTeamId": "5bcc2798ac502e0063a90fd3",
+    "awayTeamGoals": 0,
+    "homeTeamId": "5bcc278dfb4ffecf3b23b0ec",
+    "homeTeamGoals": 1,
+    "isGroupMatch": true,
+    "startingTime": 1529236800,
+    "match_number": 10
+  },
+  {
+    "objectId": "5bd444fcac502e0061d74c94",
+    "awayTeamId": "5bcc277aac502e0063a90d39",
+    "awayTeamGoals": 1,
+    "homeTeamId": "5bcc27840b6160006a3483a9",
+    "homeTeamGoals": 1,
+    "isGroupMatch": true,
+    "startingTime": 1529258400,
+    "match_number": 9
+  },
+  {
+    "objectId": "5bd444fcee920a006800c5cd",
+    "awayTeamId": "5bcc277aac502e0063a90d39",
+    "awayTeamGoals": 2,
+    "homeTeamId": "5bcc2798ac502e0063a90fd3",
+    "homeTeamGoals": 0,
+    "isGroupMatch": true,
+    "startingTime": 1529668800,
+    "match_number": 25
+  },
+  {
+    "objectId": "5bd444fc9f5454006e091b9c",
+    "awayTeamId": "5bcc278dfb4ffecf3b23b0ec",
+    "awayTeamGoals": 1,
+    "homeTeamId": "5bcc27840b6160006a3483a9",
+    "homeTeamGoals": 2,
+    "isGroupMatch": true,
+    "startingTime": 1529690400,
+    "match_number": 26
+  },
+  {
+    "objectId": "5bd444fcee920a006800c5d8",
+    "awayTeamId": "5bcc27840b6160006a3483a9",
+    "awayTeamGoals": 2,
+    "homeTeamId": "5bcc2798ac502e0063a90fd3",
+    "homeTeamGoals": 2,
+    "isGroupMatch": true,
+    "startingTime": 1530122400,
+    "match_number": 42
+  },
+  {
+    "objectId": "5bd444fc0b61600066e7ac06",
+    "awayTeamId": "5bcc278dfb4ffecf3b23b0ec",
+    "awayTeamGoals": 0,
+    "homeTeamId": "5bcc277aac502e0063a90d39",
+    "homeTeamGoals": 2,
+    "isGroupMatch": true,
+    "startingTime": 1530122400,
+    "match_number": 41
+  },
+  {
+    "objectId": "5bd444fd17d0090062fc8f9d",
+    "awayTeamId": "5bcc27b90b6160006a348700",
+    "awayTeamGoals": 0,
+    "homeTeamId": "5bcc27a8ee920a0067d4e192",
+    "homeTeamGoals": 1,
+    "isGroupMatch": true,
+    "startingTime": 1529247600,
+    "match_number": 11
+  },
+  {
+    "objectId": "5bd444fd17d0090062fc8fa2",
+    "awayTeamId": "5bcc27a0fb4ffecf3b23b27e",
+    "awayTeamGoals": 1,
+    "homeTeamId": "5bcc27b3808ca400727dfcee",
+    "homeTeamGoals": 0,
+    "isGroupMatch": true,
+    "startingTime": 1529323200,
+    "match_number": 12
+  },
+  {
+    "objectId": "5bd444fd17d0090062fc8fa8",
+    "awayTeamId": "5bcc27b3808ca400727dfcee",
+    "awayTeamGoals": 1,
+    "homeTeamId": "5bcc27a8ee920a0067d4e192",
+    "homeTeamGoals": 2,
+    "isGroupMatch": true,
+    "startingTime": 1529766000,
+    "match_number": 28
+  },
+  {
+    "objectId": "5bd444fd9f5454006e091bac",
+    "awayTeamId": "5bcc27b90b6160006a348700",
+    "awayTeamGoals": 2,
+    "homeTeamId": "5bcc27a0fb4ffecf3b23b27e",
+    "homeTeamGoals": 1,
+    "isGroupMatch": true,
+    "startingTime": 1529776800,
+    "match_number": 27
+  },
+  {
+    "objectId": "5bd444fe17d0090062fc8fb1",
+    "awayTeamId": "5bcc27a8ee920a0067d4e192",
+    "awayTeamGoals": 0,
+    "homeTeamId": "5bcc27a0fb4ffecf3b23b27e",
+    "homeTeamGoals": 3,
+    "isGroupMatch": true,
+    "startingTime": 1530108000,
+    "match_number": 44
+  },
+  {
+    "objectId": "5bd444fe0b61600066e7ac1c",
+    "awayTeamId": "5bcc27b3808ca400727dfcee",
+    "awayTeamGoals": 2,
+    "homeTeamId": "5bcc27b90b6160006a348700",
+    "homeTeamGoals": 0,
+    "isGroupMatch": true,
+    "startingTime": 1530108000,
+    "match_number": 43
+  },
+  {
+    "objectId": "5bd444fe44d904005eb181f2",
+    "awayTeamId": "5bcc27c7808ca400727dfe63",
+    "awayTeamGoals": 3,
+    "homeTeamId": "5bcc27e3fb4ffe0069c79cae",
+    "homeTeamGoals": 0,
+    "isGroupMatch": true,
+    "startingTime": 1529334000,
+    "match_number": 13
+  },
+  {
+    "objectId": "5bd444fe0b61600066e7ac1f",
+    "awayTeamId": "5bcc27dc808ca400727dfff8",
+    "awayTeamGoals": 1,
+    "homeTeamId": "5bcc27d3fb4ffecf3b23b58c",
+    "homeTeamGoals": 2,
+    "isGroupMatch": true,
+    "startingTime": 1529344800,
+    "match_number": 14
+  },
+  {
+    "objectId": "5bd444fe17d0090062fc8fbe",
+    "awayTeamId": "5bcc27c7808ca400727dfe63",
+    "awayTeamGoals": 5,
+    "homeTeamId": "5bcc27dc808ca400727dfff8",
+    "homeTeamGoals": 2,
+    "isGroupMatch": true,
+    "startingTime": 1529755200,
+    "match_number": 29
+  },
+  {
+    "objectId": "5bd444ffee920a0068fb9871",
+    "awayTeamId": "5bcc27d3fb4ffecf3b23b58c",
+    "awayTeamGoals": 6,
+    "homeTeamId": "5bcc27e3fb4ffe0069c79cae",
+    "homeTeamGoals": 1,
+    "isGroupMatch": true,
+    "startingTime": 1529841600,
+    "match_number": 30
+  },
+  {
+    "objectId": "5bd444ff44d904005eb181fd",
+    "awayTeamId": "5bcc27e3fb4ffe0069c79cae",
+    "awayTeamGoals": 1,
+    "homeTeamId": "5bcc27dc808ca400727dfff8",
+    "homeTeamGoals": 2,
+    "isGroupMatch": true,
+    "startingTime": 1530208800,
+    "match_number": 46
+  },
+  {
+    "objectId": "5bd444ff44d904005eb18201",
+    "awayTeamId": "5bcc27d3fb4ffecf3b23b58c",
+    "awayTeamGoals": 0,
+    "homeTeamId": "5bcc27c7808ca400727dfe63",
+    "homeTeamGoals": 1,
+    "isGroupMatch": true,
+    "startingTime": 1530208800,
+    "match_number": 45
+  },
+  {
+    "objectId": "5bd444ff0b61600066e7ac34",
+    "awayTeamId": "5bcc27f29f54540070c18496",
+    "awayTeamGoals": 1,
+    "homeTeamId": "5bcc28010b6160006f435a0c",
+    "homeTeamGoals": 2,
+    "isGroupMatch": true,
+    "startingTime": 1529409600,
+    "match_number": 16
+  },
+  {
+    "objectId": "5bd444ff44d904005eb18203",
+    "awayTeamId": "5bcc2811fb4ffe0069c7a038",
+    "awayTeamGoals": 1,
+    "homeTeamId": "5bcc280a0b6160006a348d18",
+    "homeTeamGoals": 2,
+    "isGroupMatch": true,
+    "startingTime": 1529420400,
+    "match_number": 15
+  },
+  {
+    "objectId": "5bd444ff44d904005eb18206",
+    "awayTeamId": "5bcc28010b6160006f435a0c",
+    "awayTeamGoals": 2,
+    "homeTeamId": "5bcc280a0b6160006a348d18",
+    "homeTeamGoals": 2,
+    "isGroupMatch": true,
+    "startingTime": 1529852400,
+    "match_number": 32
+  },
+  {
+    "objectId": "5bd44500ee920a006800c62d",
+    "awayTeamId": "5bcc2811fb4ffe0069c7a038",
+    "awayTeamGoals": 0,
+    "homeTeamId": "5bcc27f29f54540070c18496",
+    "homeTeamGoals": 3,
+    "isGroupMatch": true,
+    "startingTime": 1529863200,
+    "match_number": 31
+  },
+  {
+    "objectId": "5bd4450044d904005eb1820b",
+    "awayTeamId": "5bcc28010b6160006f435a0c",
+    "awayTeamGoals": 0,
+    "homeTeamId": "5bcc2811fb4ffe0069c7a038",
+    "homeTeamGoals": 1,
+    "isGroupMatch": true,
+    "startingTime": 1530194400,
+    "match_number": 47
+  },
+  {
+    "objectId": "5bd44500ee920a0068fb988f",
+    "awayTeamId": "5bcc280a0b6160006a348d18",
+    "awayTeamGoals": 0,
+    "homeTeamId": "5bcc27f29f54540070c18496",
+    "homeTeamGoals": 1,
+    "isGroupMatch": true,
+    "startingTime": 1530194400,
+    "match_number": 48
+  }
+]

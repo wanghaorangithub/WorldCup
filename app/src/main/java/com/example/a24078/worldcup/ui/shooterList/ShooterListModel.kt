@@ -9,7 +9,7 @@ import com.example.a24078.worldcup.support.utils.ReadTxtToJson
 /**
  * Created by haoran on 2018/9/28.
  */
-class ShooterListModel(val context: Context) {
+class ShooterListModel(private val context: Context) {
     private var playerList: LinkedList<PlayerBean> = LinkedList()
     private var eventList: LinkedList<EventBean> = LinkedList()
 
@@ -56,7 +56,7 @@ class ShooterListModel(val context: Context) {
         return shooterList
     }
 
-    fun getShooterListByEvent(time: Int): LinkedList<PlayerBean> {
+    fun getShooterListByEvent(time: Long): LinkedList<PlayerBean> {
         var m = -1
         //更新球员进球数
         for (i in 0..eventList.size()) {
