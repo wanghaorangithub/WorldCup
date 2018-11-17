@@ -5,9 +5,10 @@ package com.example.a24078.worldcup.entity
  */
 data class EventBean(
         val objectId: String,
-        val time: String,
-        val playerId: String,
+        var time: String,
+        var playerId: String,
         val matchId: String,
-        val eventType: String
+        val eventType: String,
+        var teamId:String?
 )
 

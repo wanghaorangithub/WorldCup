@@ -18,7 +18,7 @@ class LeagueTableModel(private val context: Context) {
     private var eventList: LinkedList<EventBean> = LinkedList()
     private var playerList: LinkedList<PlayerBean> = LinkedList()
     fun setUpList() {
-        val matchList1: List<MatchBean> = ReadTxtToJson<MatchBean>().getDataFromFileInAssets(context, "match_1", MatchBean::class.java)
+        val matchList1: List<MatchBean> = ReadTxtToJson<MatchBean>().getDataFromFileInAssets(context, "match_3", MatchBean::class.java)
         val teamList1: List<TeamBean> = ReadTxtToJson<TeamBean>().getDataFromFileInAssets(context, "team_1", TeamBean::class.java)
         val playerList1: List<PlayerBean> = ReadTxtToJson<PlayerBean>().getDataFromFileInAssets(context, "player_1", PlayerBean::class.java)
         val eventList1: List<EventBean> = ReadTxtToJson<EventBean>().getDataFromFileInAssets(context, "event_1", EventBean::class.java)

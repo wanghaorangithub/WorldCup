@@ -4,10 +4,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#464646"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:fitsSystemWindows="true">
 
     <RelativeLayout
-        android:layout_width="360dp"
+        android:layout_width="match_parent"
         android:layout_height="46.7dp"
         android:background="@color/colorPrimary">
 
@@ -23,11 +24,11 @@
             android:id="@+id/leaguetable_act_textview1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="59.7dp"
-            android:layout_marginTop="11.3dp"
+            android:layout_marginStart="55dp"
+            android:layout_marginTop="15dp"
             android:lineSpacingExtra="6sp"
             android:textColor="#000000"
-            android:textSize="18sp"
+            android:textSize="14sp"
             tools:text="小组积分：8月30日09时" />
     </RelativeLayout>
 

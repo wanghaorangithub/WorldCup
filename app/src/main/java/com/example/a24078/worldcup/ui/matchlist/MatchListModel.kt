@@ -2,7 +2,6 @@ package com.example.a24078.worldcup.ui.matchlist
 
 import android.annotation.SuppressLint
 import android.content.Context
-import android.util.Log
 import com.example.a24078.worldcup.entity.EventBean
 import com.example.a24078.worldcup.entity.MatchBean
 import com.example.a24078.worldcup.entity.PlayerBean
@@ -26,7 +25,7 @@ class MatchListModel(private val context: Context) {
 
     @SuppressLint("LogNotTimber")
     fun setUpList() {
-        val matchList1: List<MatchBean> = ReadTxtToJson<MatchBean>().getDataFromFileInAssets(context, "match_2", MatchBean::class.java)
+        val matchList1: List<MatchBean> = ReadTxtToJson<MatchBean>().getDataFromFileInAssets(context, "match_3", MatchBean::class.java)
         val teamList1: List<TeamBean> = ReadTxtToJson<TeamBean>().getDataFromFileInAssets(context, "team_1", TeamBean::class.java)
         val playerList1: List<PlayerBean> = ReadTxtToJson<PlayerBean>().getDataFromFileInAssets(context, "player_1", PlayerBean::class.java)
         val eventList1: List<EventBean> = ReadTxtToJson<EventBean>().getDataFromFileInAssets(context, "event_1", EventBean::class.java)
@@ -168,7 +167,11 @@ class MatchListModel(private val context: Context) {
                         }
                     } while (teamList[m]?.objectId != homeTeamId)
                 }
+                if (matchList[i]?.homeTeamId?.length == 2) {//如果球队名字已经确定
+                    matchList[i]?.homeTeamName = matchList[i]?.homeTeamId
+                }
             }
+
             //客队
             if (matchList[i]?.awayTeamId != null) {
                 if (matchList[i]?.awayTeamId?.length!! > 2) {//如果球队名字已经确定
@@ -178,6 +181,9 @@ class MatchListModel(private val context: Context) {
                             matchList[i]?.awayTeamName = teamList[n]?.name
                         }
                     } while (teamList[n]?.objectId != awayTeamId)
+                }
+                if (matchList[i]?.awayTeamId?.length == 2) {//如果球队名字已经确定
+                    matchList[i]?.awayTeamName = matchList[i]?.awayTeamId
                 }
             }
 
@@ -246,18 +252,14 @@ class MatchListModel(private val context: Context) {
     @SuppressLint("LogNotTimber")
     private fun getTeamName(time: Long) {
         for (i in 14 downTo 1) {
-            if ((matchListForTree[i]?.startingTime!! + 10800L) < time && i % 2 == 1) {
-                Log.e("child",i.toString())
-                Log.e("parent",(i/2).toString())
+            if ((matchListForTree[i]?.startingTime!! + 10800L) <= time && i % 2 == 1) {
                 if (matchListForTree[i]?.homeTeamGoals!! > matchListForTree[i]?.awayTeamGoals!!)
                     matchListForTree[i / 2]?.awayTeamId = matchListForTree[i]?.homeTeamId!!
                 if (matchListForTree[i]?.homeTeamGoals!! < matchListForTree[i]?.awayTeamGoals!!)
-
                     matchListForTree[i / 2]?.awayTeamId = matchListForTree[i]?.awayTeamId!!
             }
-            if ((matchListForTree[i]?.startingTime!! + 10800L) < time && i % 2 == 0) {
-                Log.e("child",i.toString())
-                Log.e("parent",((i-1)/2).toString())
+            if ((matchListForTree[i]?.startingTime!! + 10800L) <= time && i % 2 == 0) {
+
                 if (matchListForTree[i]?.homeTeamGoals!! > matchListForTree[i]?.awayTeamGoals!!)
                     matchListForTree[(i - 1) / 2]?.homeTeamId = matchListForTree[i]?.homeTeamId!!
                 if (matchListForTree[i]?.homeTeamGoals!! < matchListForTree[i]?.awayTeamGoals!!)
@@ -265,13 +267,13 @@ class MatchListModel(private val context: Context) {
             }
         }
 //        处理季军赛
-        if ((matchList[60]?.startingTime!! + 10800L) < time) {
+        if ((matchList[60]?.startingTime!! + 10800L) <= time) {
             if (matchList[60]?.homeTeamGoals!! < matchList[60]?.awayTeamGoals!!)
                 matchList[62]?.awayTeamId = matchList[60]?.homeTeamId!!
             if (matchList[60]?.homeTeamGoals!! > matchList[60]?.awayTeamGoals!!)
                 matchList[62]?.awayTeamId = matchList[60]?.awayTeamId!!
         }
-        if ((matchList[61]?.startingTime!! + 10800L) < time) {
+        if ((matchList[61]?.startingTime!! + 10800L) <= time) {
             if (matchList[61]?.homeTeamGoals!! < matchList[61]?.awayTeamGoals!!)
                 matchList[62]?.homeTeamId = matchList[61]?.homeTeamId!!
             if (matchList[61]?.homeTeamGoals!! > matchList[61]?.awayTeamGoals!!)
