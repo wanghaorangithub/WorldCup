@@ -4,10 +4,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#474747"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:fitsSystemWindows="true">
 
     <RelativeLayout
-        android:layout_width="360dp"
+        android:layout_width="match_parent"
         android:layout_height="43.7dp"
         android:background="#efc550">
 
@@ -23,14 +24,14 @@
     </RelativeLayout>
 
     <RelativeLayout
-        android:layout_width="match_parent"
+        android:layout_width="350dp"
+        android:layout_gravity="center_horizontal"
         android:layout_height="match_parent">
 
         <Button
             android:id="@+id/index_act_button1"
             android:layout_width="164dp"
             android:layout_height="160.7dp"
-            android:layout_marginStart="12.7dp"
             android:layout_marginTop="10.3dp"
             android:background="@color/colorPrimary"
             android:fontFamily="serif-monospace"
@@ -44,7 +45,7 @@
             android:id="@+id/index_act_button2"
             android:layout_width="164dp"
             android:layout_height="160.7dp"
-            android:layout_marginStart="183.3dp"
+            android:layout_marginStart="184.3dp"
             android:layout_marginTop="10.3dp"
             android:background="@color/colorPrimary"
             android:fontFamily="serif-monospace"
@@ -58,7 +59,6 @@
             android:id="@+id/index_act_button3"
             android:layout_width="164dp"
             android:layout_height="160.7dp"
-            android:layout_marginStart="12.7dp"
             android:layout_marginTop="177.7dp"
             android:background="@color/colorPrimary"
             android:fontFamily="serif-monospace"
@@ -72,20 +72,19 @@
             android:id="@+id/index_act_button4"
             android:layout_width="164dp"
             android:layout_height="160.7dp"
-            android:layout_marginStart="183.3dp"
+            android:layout_marginStart="184.3dp"
             android:layout_marginTop="177.7dp"
             android:background="@color/colorPrimary"
             android:fontFamily="serif-monospace"
             android:lineSpacingExtra="9.7sp"
             android:paddingTop="113.3dp"
-            android:text="淘汰赛对阵"
+            android:text="赛程表"
             android:textColor="#000000"
             android:textSize="29sp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="12.7dp"
             android:layout_marginTop="358dp"
             android:fontFamily="serif-monospace"
             android:lineSpacingExtra="5.3sp"
@@ -94,9 +93,9 @@
             android:textSize="15.7sp" />
 
         <TextView
+            android:id="@+id/index_act_textview"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="12.7dp"
             android:layout_marginTop="379dp"
             android:fontFamily="serif-monospace"
             android:lineSpacingExtra="4.3sp"
@@ -108,7 +107,7 @@
             android:id="@+id/index_act_edittext1"
             android:layout_width="78.3dp"
             android:layout_height="29dp"
-            android:layout_marginStart="12.7dp"
+            android:layout_marginStart="20.7dp"
             android:layout_marginTop="402.7dp"
             android:background="#ffffff" />
 
@@ -126,7 +125,7 @@
             android:id="@+id/index_act_edittext2"
             android:layout_width="78.3dp"
             android:layout_height="29dp"
-            android:layout_marginStart="126.7dp"
+            android:layout_marginStart="130.7dp"
             android:layout_marginTop="402.7dp"
             android:background="#ffffff" />
 
@@ -144,14 +143,14 @@
             android:id="@+id/index_act_edittext3"
             android:layout_width="78.3dp"
             android:layout_height="29dp"
-            android:layout_marginStart="240.7dp"
+            android:layout_marginStart="235.7dp"
             android:layout_marginTop="402.7dp"
             android:background="#ffffff" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="329dp"
+            android:layout_marginStart="320dp"
             android:layout_marginTop="406.7dp"
             android:lineSpacingExtra="5.3sp"
             android:textColor="#efc550"
@@ -163,10 +162,11 @@
             android:layout_height="49dp"
             android:background="@color/colorPrimary"
             android:text="设定"
+            android:layout_centerHorizontal="true"
             android:textSize="22.7sp"
             android:textColor="#000000"
             android:lineSpacingExtra="7.3sp"
-            android:layout_marginStart="12.7dp"
+            android:layout_marginStart="25.7dp"
             android:layout_marginTop="460dp"
             android:fontFamily="serif-monospace"/>
     </RelativeLayout>

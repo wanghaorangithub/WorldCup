@@ -23,7 +23,6 @@ import java.util.*
 
 class MainActivity : AppCompatActivity() {
     internal var a = LinkedList<Int>()
-    private var b = LinkedList<Int>()
     private var shooterListModel: ShooterListModel = ShooterListModel(this)
     private var matchListModel: MatchListModel = MatchListModel(this)
     private var leagueTableModel: LeagueTableModel = LeagueTableModel(this)
